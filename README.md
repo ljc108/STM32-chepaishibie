@@ -31,4 +31,26 @@
 
 4、在没有识别出车牌前，按下K1可查看已经识别出的车牌信息，并可看到计费信息（模拟停车场），识别出车牌后，显示车牌信息后， 需要按下按键K2，方可返回主界面。
 
-![image]()
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb1.png)
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb2.png)
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb3.png)
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb4.png)
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb5.png)
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb6.png)
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb7.png)
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb8.png)
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb9.png)
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb10.png)
+
+**将图片的一维数组， 与模板数组进行比对，比对时，按像素进行对比。
+比对成功一次，计数加1。
+最左侧代表当前匹配的字符在模板库中是第几个字符
+中间表示当前字符匹配的正确像素数；
+最右侧表示匹配的像素数目的最大值!!**
+
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb11.png)
+
+**难点是黑夜，雨天雾天，车牌模糊这些情况！**
+
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb12.png)
+![image](https://github.com/ljc108/STM32-chepaishibie/blob/main/LicensePlateRecognition-master/cpsb13.png)
